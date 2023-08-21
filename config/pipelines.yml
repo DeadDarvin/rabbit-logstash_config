@@ -1,0 +1,9 @@
+- pipeline.id: owner-node
+  pipeline.workers: 1
+  pipeline.batch.size: 1
+  path.config: "./config/pipelines/owner.conf"
+
+- pipeline.id: worker-node
+  pipeline.workers: 1
+  pipeline.batch.size: 1
+  path.config: "./config/pipelines/worker.conf"
